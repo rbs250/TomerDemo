@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomer Ben Simon | Coiffure Tel Aviv</title>
+  <meta name="description" content="Tomer Ben Simon - Coiffeur professionnel à Tel Aviv.">
+  <link rel="icon" href="Media/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="Style/mainStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="./script/script.js" defer></script>
+</head>
+<body>
+
+  <nav class="nav-bar glass">
+    <a href="#" class="logo">Tomer Ben Simon</a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">À Propos</a></li>
+      <li><a href="#gallery">Galerie</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+        <div class="lang-switch">
+            <a href="index.html">EN</a>
+            <span class="sep">|</span>
+            <a href="index-he.html">HE</a>
+            <span class="sep">|</span>
+            <a href="index-fr.html" class="active">FR</a>
+        </div>
+        <a href="https://wa.me/972504746366" class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> Réserver
+        </a>
+        <button class="menu-toggle" aria-label="Open Menu"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+      <a href="#services" class="m-link">Services</a>
+      <a href="#about" class="m-link">À Propos</a>
+      <a href="#gallery" class="m-link">Galerie</a>
+      <a href="#contact" class="m-link">Contact</a>
+      <div class="mobile-lang">
+          <a href="index.html">EN</a>
+          <a href="index-he.html">HE</a>
+          <a href="index-fr.html" class="active">FR</a>
+      </div>
+  </div>
+
+  <header class="hero-section">
+    <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?q=80&w=2574&auto=format&fit=crop" alt="Salon">
+        <div class="overlay"></div>
+    </div>
+    <div class="glass-hero-card">
+      <h1>Coiffure<br>Tel Aviv.</h1>
+      <p class="hero-sub">Coupes de précision, coloration organique et styling sur mesure au cœur du Vieux Nord.</p>
+      <div class="hero-btns">
+        <a href="https://wa.me/972504746366" class="btn-whatsapp large">
+             <i class="fab fa-whatsapp"></i> Prendre Rendez-vous
+        </a>
+        <a href="#services" class="btn-secondary white-border">Voir le Menu</a>
+      </div>
+    </div>
+    <div class="scroll-indicator"><span></span><span></span><span></span></div>
+  </header>
+
+  <section id="services" class="section-wrapper">
+    <div class="section-header">
+      <h2>Nos Services</h2>
+      <p>Une approche consultative utilisant des produits organiques de premier plan.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card glass">
+        <h3>Coupes Femme</h3>
+        <p>Personnalisées selon la forme de votre visage et votre style de vie. Shampoing et brushing inclus.</p>
+      </div>
+      <div class="service-card glass">
+        <h3>Couleur & Balayage</h3>
+        <p>Spécialiste des tons naturels, Ombré et correction de couleur sans dommage.</p>
+      </div>
+      <div class="service-card glass">
+        <h3>Lissage Organique</h3>
+        <p>Formules nourrissantes qui laissent les cheveux lisses, brillants et sains.</p>
+      </div>
+      <div class="service-card glass">
+        <h3>Mariage & Soirée</h3>
+        <p>Des styles inoubliables pour votre grand jour. Élégants, durables et photogéniques.</p>
+      </div>
+      <div class="service-card glass">
+        <h3>Extensions</h3>
+        <p>Méthodes avancées pour un volume et une longueur naturels.</p>
+      </div>
+      <div class="service-card glass">
+        <h3>Coupes Homme</h3>
+        <p>Coupes de précision aux ciseaux, dégradés et entretien de la barbe.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="instagram" class="section-wrapper">
+    <div class="section-header">
+      <h2>Portfolio</h2>
+      <p>Suivez-nous <a href="https://www.instagram.com/tomerbensimon1/" target="_blank" style="text-decoration:underline;">@tomerbensimon1</a></p>
+    </div>
+    <div class="glass insta-placeholder">
+        <p style="opacity:0.5;">[ Widget Instagram ]</p>
+    </div>
+  </section>
+
+  <section id="about" class="section-wrapper">
+    <div class="about-layout glass">
+        <div class="about-img">
+            <img src="Media/Tomer.jpg" alt="Tomer Ben Simon" onerror="this.onerror=null; this.src='Media/Tomer.jpeg';">
+        </div>
+        <div class="about-txt">
+            <h2>Rencontrez Tomer</h2>
+            <p class="lead">"Le style est le reflet de votre attitude et de votre personnalité."</p>
+            <p>Après avoir perfectionné mes compétences dans les plus grands salons de <strong>Londres et Los Angeles</strong>, je suis revenu en Israël pour apporter la précision internationale à Tel Aviv.</p>
+            <p>J'ai eu le privilège de coiffer des célébrités (dont Kim Kardashian) et de servir de coiffeur privé à Eden Harel pendant quatre ans.</p>
+            
+            <div class="mini-carousel-wrapper">
+                <span class="mini-label">Archives</span>
+                <div class="mini-track" id="miniGallery"></div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-wrapper">
+    <div class="section-header">
+      <h2>Visitez-nous</h2>
+    </div>
+    <div class="contact-layout glass">
+        <div class="contact-info">
+            <h3>Tomer Ben Simon</h3>
+            <p class="c-item"><strong>Adresse:</strong> Yirmeyahu St 15, Tel Aviv</p>
+            <p class="c-item"><strong>Tél:</strong> <a href="tel:0504746366">050-474-6366</a></p>
+            <div class="hours">
+                <h4>Horaires</h4>
+                <p>Dim, Mer, Jeu: 10:00 - 19:00</p>
+                <p>Mar: 09:00 - 19:00</p>
+                <p>Ven: 09:00 - 14:00</p>
+            </div>
+            <a href="https://wa.me/972504746366" class="btn-whatsapp full-width"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.463385759902!2d34.77568432360405!3d32.09637311909871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4bf763955555%3A0x7d07548549557451!2sYirmeyahu%20St%2015%2C%20Tel%20Aviv-Yafo!5e0!3m2!1sen!2sil!4v1709400000000!5m2!1sen!2sil" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+  </section>
+
+  <footer>© 2025 Tomer Ben Simon.</footer>
+
+</body>
+</html>
